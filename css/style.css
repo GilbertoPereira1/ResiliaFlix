@@ -1,0 +1,121 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.header{
+    background-image: url("https://19f75e2c48dd328909426559a48e7d88.oldflix.com.br/images/background/pub_5ace5e81ac5bfc09804fc669.jpg");
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+.header .container{
+    width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu-principal{
+    display: flex;
+}
+.menu-principal > li{
+    margin: 0 0 0 15px;
+}
+.menu-principal > li > a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.menu-principal > li > a:hover{
+    color: rgb(219, 219, 13);
+    font-size: 27px;
+    font-weight: bold;
+}
+.titulo-principal > a{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(255, 255, 5);
+    text-transform: uppercase;
+}
+.titulo-principal > a > span{
+    color: red;
+    font-weight: bolder;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31, 30, 30);
+}
+main .container{
+    max-width: 1300px;
+    margin-top: -15em;
+}
+main .container h2{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    letter-spacing: 0.2em;
+    margin: 20px 0;
+
+}
+main .container h2:hover{
+    text-decoration: none;
+    font-size: 3.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+main .container ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .container ul li{
+    margin: 10px;
+}
+main .container ul li p{
+    margin: 7px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+}
+main .container ul li img{
+    max-width: 200px;
+    max-height: 300px;
+}
+main .container ul li img:hover{
+    width: 250px;
+    border: solid rgba(255,255,255, 0.5) 2px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+footer .container {
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+footer .container ul{
+    display: flex;
+}
+footer .container ul li{
+    padding: 0 20px;
+}
+footer .container ul li img{
+    width: 40px;
+}
+footer .container ul li img:hover{
+    width: 40px;
+    
+    cursor: pointer;
+}
